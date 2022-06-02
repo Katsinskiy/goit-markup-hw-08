@@ -14,7 +14,7 @@
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms $cubic;
   &--color {
-    color: $white-color;
+    color: $primery-color;
   }
 }
 .address-footer__item:not(:first-child) .address-footer__link:hover {

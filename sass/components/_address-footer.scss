@@ -1,0 +1,27 @@
+.address-footer__list {
+  padding-bottom: 60px;
+
+  font-style: normal;
+  font-size: $fs2;
+  line-height: 1.71;
+}
+.address-footer__item:not(:last-child) {
+  padding-bottom: 9px;
+}
+
+.address-footer__link {
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms $cubic;
+  &--color {
+    color: $white-color;
+  }
+}
+.address-footer__item:not(:first-child) .address-footer__link:hover {
+  color: $accient-color;
+}
+
+.address-footer__list {
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
+}

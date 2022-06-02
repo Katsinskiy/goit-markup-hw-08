@@ -28,7 +28,6 @@
   }
   
   .current::after {
-    content: " ";
     position: absolute;
     bottom: -1px; 
     left: 0;
@@ -38,7 +37,7 @@
     height: 4px;
     background-color: $accient-color;
     border-radius: 2px;
-    opacity: 1;
+    
   }
   
   

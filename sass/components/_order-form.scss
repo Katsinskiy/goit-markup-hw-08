@@ -64,7 +64,7 @@
     fill: $accient-color;
   }
   
-  /* вся форма */
+  
   .order-form {
     @extend %flex;
     flex-direction: column;
@@ -77,7 +77,7 @@
     color: $secondary-text-color;
   }
   
-  /* родитель для input - label */
+  
   .order-form__label {
     @extend %flex;
     flex-direction: column;
@@ -122,7 +122,7 @@
     color: rgba(117, 117, 117, 0.5);
   }
   
-  /* ссылка на условия договора */
+  
   .order-form__agreement {
     text-decoration: underline;
     color: $accient-color;

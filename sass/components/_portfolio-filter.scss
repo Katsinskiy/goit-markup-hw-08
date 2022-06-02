@@ -9,26 +9,18 @@
       margin-bottom: -15px;
     }
   }
-  .portfolio__btn {
-    margin-left: 8px;
-  }
+  // .portfolio__btn {
+  //   margin-left: 8px;
+  // }
   
   .portfolio-item {
     @media screen and (max-width: 767px) {
       margin-bottom: 15px;
     }
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
     
   }
   
-  // .examples__filter:not(:last-child) {
-  //   margin-left: 8px;
-  // }
   
-  // .filter-item {
-  //   @media screen and (max-width: 767px) {
-  //     margin-bottom: 15px;
-  //   }
-  //   &:not(:last-child) {
-  //     margin-left: 8px;
-  //   }
-  // }

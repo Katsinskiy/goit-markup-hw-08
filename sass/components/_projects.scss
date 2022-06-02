@@ -51,9 +51,17 @@
     background-color: hsla(207, 90%, 54%, 0.9);
   }
   
+  .projects__link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
   .projects__text-group {
-    border: 1px solid $border-color;
-    border-top: 0;
+    padding: 20px 24px;
+  border: 1px solid $border-color;
+  border-top: 0;
+  flex-grow: 1;
   }
   .projects__title {
     padding-left: 24px;
@@ -64,9 +72,7 @@
     letter-spacing: $ls3;
   }
   .projects__text {
-    padding-bottom: 20px;
-    padding-left: 24px;
-    color: $primary-text-color;
+     color: $primary-text-color;
     font-size: $fs3;
     line-height: 1.88;
   }

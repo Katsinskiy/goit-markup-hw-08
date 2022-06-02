@@ -1,24 +1,25 @@
 // ----------------------basic styles
 .page-header {
-  border-bottom: 1px solid #ececec;
-
-  background: $primery-color;
-  font-weight: $fw3;
-  font-size: $fs2;
-  letter-spacing: $ls2;
-}
-
-.page-header {
-  @media screen and (max-width: 767px) {
-    position: relative;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    border-bottom: 1px solid #ececec;
+  
+    background: #fff;
+    font-weight: $fw3;
+    font-size: $fs2;
+    letter-spacing: $ls2;
   }
-}
-
-.page-header .page-header--container {
-  @media screen and (min-width: 768px) {
-    display: flex;
-    justify-content: center;
+  
+  .page-header {
+    @media screen and (max-width: 767px) {
+      position: relative;
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
   }
-}
+  
+  .page-header .page-header--container {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  

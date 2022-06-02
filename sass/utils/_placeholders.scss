@@ -1,12 +1,13 @@
 %flex {
-  display: flex;
-}
-%flex-align-centr {
-  display: flex;
-  align-items: center;
-}
-%flex-full {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+    display: flex;
+  }
+  %flex-align-centr {
+    display: flex;
+    align-items: center;
+  }
+  %flex-full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
